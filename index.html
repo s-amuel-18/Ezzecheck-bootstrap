@@ -1,645 +1,813 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/Bootstrap-toggle/css/bootstrap4-toggle.min.css">
 
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body class="">
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent-gray py-1">
-
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/icons/izzicheck Blanco.svg" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-navbar py-1">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/icons/izzicheck Blanco.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+</div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="#">Link</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Dropdown
                 </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="text-white nav-link" href="#">Link</a>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a class="text-white nav-link disabled" href="#">Disabled</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="text-white btn btn-outline-light btn-sm nav-link text-white" href="#">Obtener
-                                Ahora</a>
-                        </li>
-                    </ul>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <a class="dropdown-item" href="#!">Action</a>
+                  <a class="dropdown-item" href="#!">Another action</a>
                 </div>
-            </div>
-
-        </nav>
-
-        <div class="header bg-fit" style="padding: 130px 0;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="mb-3">
-                            <a href="" class="btn btn-outline-light btn-custom-blur">Lorem, ipsum.</a>
-                        </div>
-                        <h1 class="font-weight-light mb-4">
-                            <span class="text-primary">Valida los pagos (Zelle)</span>
-                            <span class="text-light">recibidos, al instante y de manera segura</span>
-                        </h1>
-
-                        <div class="">
-                            <a href="" class="btn btn-primary">Lorem, ipsum.</a>
-                            <a href="" class="btn bg-transparent text-white font-weight-bold">Lorem, ipsum.</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+              </div>
+              
+              <li class="nav-item">
+                <a class="text-white nav-link disabled" href="#">Disabled</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link disabled" href="#">Disabled</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link disabled" href="#">Disabled</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link disabled" href="#">Disabled</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link disabled" href="#">Disabled</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="text-white btn btn-outline-light btn-sm nav-link text-white"
+                  href="#"
+                  >Obtener Ahora</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
+      <div class="header bg-fit" style="padding: 130px 0">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="mb-3">
+                <a href="" class="btn btn-outline-light btn-custom-blur"
+                  >Lorem, ipsum.</a
+                >
+              </div>
+              <h1 class="font-weight-light mb-4">
+                <span class="text-primary">Valida los pagos (Zelle)</span>
+                <span class="text-light"
+                  >recibidos, al instante y de manera segura</span
+                >
+              </h1>
+
+              <div class="">
+                <a href="" class="btn btn-primary">Lorem, ipsum.</a>
+                <a
+                  href=""
+                  class="btn bg-transparent text-white font-weight-bold  border-green "
+                  >Lorem, ipsum.</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main>
-
-        <section class="container">
-
-            <div class="row tramslate-y-40">
-                <div class="col-md-6">
-                    <img src="./assets/recursos/Laptop Desktop.png" alt="" class="w-100">
-                </div>
-                <div class="col-md-6 d-flex align-items-center py-md-5 p-3 mt-4">
-                    <div class="">
-                        <h2 class="text-primary">Lo hace por ti</h2>
-
-                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsam vel
-                            fugit consequuntur at
-                            veritatis optio, voluptates dolorem alias quis dolorum reprehenderit mollitia corporis sequi
-                            id quia tenetur rerum molestiae. Aliquam a pariatur sunt dolore optio, mollitia omnis cum
-                            unde? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias modi nulla deleniti
-                            et vel placeat, laborum adipisci reprehenderit maiores facilis dolorem debitis ipsa aut
-                            mollitia aliquam animi praesentium. Voluptatem, reprehenderit!</p>
-
-                        <div class="">
-                            <a href="" class="btn btn-primary">Lorem, ipsum.</a>
-                            <a href="" class="btn btn-outline-primary font-weight-bold">Lorem, ipsum.</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="container py-4">
-
-            <div class="text-center">
-                <h2 class="text-primary">Ventajas</h2>
-
-                <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-md-2 col-lg-3">
-                    <div class="">
-                        <div class="d-flex justify-content-center">
-                            <div
-                                class="mb-4 circle-item d-flex justify-content-center align-items-center rounded-circle bg-purple text-white p-1">
-                                <i class="fa fa-user m-0 p-0"></i>
-                            </div>
-
-                        </div>
-                        <div class="text-center text-muted">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut excepturi veniam
-                                voluptates, eos vitae deleniti nisi laboriosam dolorem? Rem iste neque veniam laborum
-                                nesciunt autem quibusdam dolor aut eius consequuntur.</p>
-
-                            <a href="" class="text-primary font-weight-bold">Lorem, ipsum.</a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-3">
-                    <div class="">
-                        <div class="d-flex justify-content-center">
-                            <div
-                                class="mb-4 circle-item d-flex justify-content-center align-items-center rounded-circle bg-purple text-white p-1">
-                                <i class="fa fa-user m-0 p-0"></i>
-                            </div>
-
-                        </div>
-                        <div class="text-center text-muted">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut excepturi veniam
-                                voluptates, eos vitae deleniti nisi laboriosam dolorem? Rem iste neque veniam laborum
-                                nesciunt autem quibusdam dolor aut eius consequuntur.</p>
-
-                            <a href="" class="text-primary font-weight-bold">Lorem, ipsum.</a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-3">
-                    <div class="">
-                        <div class="d-flex justify-content-center">
-                            <div
-                                class="mb-4 circle-item d-flex justify-content-center align-items-center rounded-circle bg-purple text-white p-1">
-                                <i class="fa fa-user m-0 p-0"></i>
-                            </div>
-
-                        </div>
-                        <div class="text-center text-muted">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut excepturi veniam
-                                voluptates, eos vitae deleniti nisi laboriosam dolorem? Rem iste neque veniam laborum
-                                nesciunt autem quibusdam dolor aut eius consequuntur.</p>
-
-                            <a href="" class="text-primary font-weight-bold">Lorem, ipsum.</a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-3">
-                    <div class="">
-                        <div class="d-flex justify-content-center">
-                            <div
-                                class="mb-4 circle-item d-flex justify-content-center align-items-center rounded-circle bg-purple text-white p-1">
-                                <i class="fa fa-user m-0 p-0"></i>
-                            </div>
-
-                        </div>
-                        <div class="text-center text-muted">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut excepturi veniam
-                                voluptates, eos vitae deleniti nisi laboriosam dolorem? Rem iste neque veniam laborum
-                                nesciunt autem quibusdam dolor aut eius consequuntur.</p>
-
-                            <a href="" class="text-primary font-weight-bold">Lorem, ipsum.</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="bg-fit pt-5" style="background-image: url(./assets/banners/banner\ 2.png);">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <div class="col-md-6 offset-md-3">
-                        <h2 class="text-light">Es muy facil disfrutar de los veneficios de <b>Izzicheck</b></h2>
-
-                    </div>
-                </div>
-
-                <div class="">
-                    <div class="row no-gutters">
-                        <div class="col-md-6 offset-md-1">
-                            <img src="./assets/banners/Screenshot_3.png" class="w-100" alt="">
-                        </div>
-                        <div class="col-md-4 bg-white p-4">
-                            <div class="">
-                                <div class="">
-                                    <h3 class="mb-3 text-secondary">Lorem ipsum dolor sit.</h3>
-                                </div>
-
-                                <div class="">
-                                    <div class="d-flex align-items-center text-muted mb-1">
-                                        <div class="p-3">
-                                            <span class="font-weight-bold">1</span>
-                                        </div>
-                                        <div class="p-3">
-                                            <i class="fa-solid fa-file"></i>
-                                        </div>
-                                        <div class="p-3">
-                                            <small class="">Lorem, ipsum dolor sit amet consectetu</small>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center text-muted mb-1">
-                                        <div class="p-3">
-                                            <span class="font-weight-bold">1</span>
-                                        </div>
-                                        <div class="p-3">
-                                            <i class="fa-solid fa-file"></i>
-                                        </div>
-                                        <div class="p-3">
-                                            <small class="">Lorem, ipsum dolor sit amet consectetu</small>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center text-muted">
-                                        <div class="p-3">
-                                            <span class="font-weight-bold">1</span>
-                                        </div>
-                                        <div class="p-3">
-                                            <i class="fa-solid fa-file"></i>
-                                        </div>
-                                        <div class="p-3">
-                                            <small class="">Lorem, ipsum dolor sit amet consectetu</small>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="mt-5 pb-5 pt-3 bg-fit"
-            style="background-image: url(./assets/banners/banner\ 3.png); background-position: center top;">
-            <div class="container">
-                <div class="text-center text-light">
-                    <div class="mb-2">
-                        <small class="">Lorem, ipsum dolor.</small>
-                    </div>
-
-                    <h3 class="mb-4">Lorem ipsum dolor sit amet.</h3>
-
-                    <p class="mb-3">
-                        <span class="text-primary">Lorem, ipsum.</span>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, eaque.
-                    </p>
-
-                    <div class="text-left d-flex justify-content-center">
-                        <div class="p-2">
-                            <span>Lorem, ipsum.</span>
-                        </div>
-                        <div class="p-2">
-                            <div class="custom-control custom-radio">
-                                <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadio1"></label>
-                            </div>
-                        </div>
-                        <div class="">
-                            <span>
-                                Lorem, ipsum dolor.
-                                <br>
-                                <span class="text-primary">Lorem, ipsum.</span>
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="mt-5 pb-4">
-                    <div class="row">
-                        <div class="col-md-3 p-2">
-                            <div class="text-muted p-4 bg-light">
-                                <h5>Lorem ipsum dolor sit.</h5>
-                                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam</p>
-
-                                <div class="d-flex align-content-center mb-4">
-                                    <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-
-                                    <!-- <div class=""> -->
-                                    <span>Lorem ipsum dolor sit </span>
-                                    <!-- </div> -->
-
-                                </div>
-
-                                <div class="">
-                                    <button class="btn btn-outline-dark btn-lg btn-rounded btn-block"
-                                        type="button">Lorem,
-                                        ipsum.</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 p-2">
-                            <div class="text-muted p-4 bg-light">
-                                <h5>Lorem ipsum dolor sit.</h5>
-                                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam</p>
-
-                                <div class="d-flex align-content-center mb-4">
-                                    <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-
-                                    <!-- <div class=""> -->
-                                    <span>Lorem ipsum dolor sit </span>
-                                    <!-- </div> -->
-
-                                </div>
-
-                                <div class="">
-                                    <button class="btn btn-outline-dark btn-lg btn-rounded btn-block"
-                                        type="button">Lorem,
-                                        ipsum.</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 p-2">
-                            <div class="text-muted p-4 bg-light">
-                                <h5>Lorem ipsum dolor sit.</h5>
-                                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam</p>
-
-                                <div class="d-flex align-content-center mb-4">
-                                    <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-
-                                    <!-- <div class=""> -->
-                                    <span>Lorem ipsum dolor sit </span>
-                                    <!-- </div> -->
-
-                                </div>
-
-                                <div class="">
-                                    <button class="btn btn-outline-dark btn-lg btn-rounded btn-block"
-                                        type="button">Lorem,
-                                        ipsum.</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 p-2">
-                            <div class="text-muted p-4 bg-light">
-                                <h5>Lorem ipsum dolor sit.</h5>
-                                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam</p>
-
-                                <div class="d-flex align-content-center mb-4">
-                                    <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                        <i class="fa-solid fa-check"></i>
-                                    </div>
-
-                                    <!-- <div class=""> -->
-                                    <span>Lorem ipsum dolor sit </span>
-                                    <!-- </div> -->
-
-                                </div>
-
-                                <div class="">
-                                    <button class="btn btn-outline-dark btn-lg btn-rounded btn-block"
-                                        type="button">Lorem,
-                                        ipsum.</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="container py-5">
-            <div class="row">
-                <div class="col-md-6 text-muted d-flex align-content-center">
-                    <div class="">
-                        <div class="mb-3">
-                            <small>Lorem ipsum dolor sit.</small>
-                        </div>
-
-                        <h3 class="text-primary">Lorem ipsum dolor sit.</h3>
-
-                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repellendus
-                            possimus
-                            praesentium, odit, nesciunt mollitia obcaecati atque tempora explicabo necessitatibus esse,
-                            rerum fugit? Nobis beatae suscipit perspiciatis cum! Eum, doloribus.</p>
-
-                        <div class="d-flex align-content-center mb-4">
-                            <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-
-                            <!-- <div class=""> -->
-                            <span>Lorem ipsum dolor sit </span>
-                            <!-- </div> -->
-
-                        </div>
-
-                        <div class="d-flex align-content-center mb-4">
-                            <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-
-                            <!-- <div class=""> -->
-                            <span>Lorem ipsum dolor sit </span>
-                            <!-- </div> -->
-
-                        </div>
-
-                        <div class="d-flex align-content-center mb-4">
-                            <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-
-                            <!-- <div class=""> -->
-                            <span>Lorem ipsum dolor sit </span>
-                            <!-- </div> -->
-
-                        </div>
-
-                        <div class="d-flex align-content-center mb-4">
-                            <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-
-                            <!-- <div class=""> -->
-                            <span>Lorem ipsum dolor sit </span>
-                            <!-- </div> -->
-
-                        </div>
-
-                        <div class="d-flex align-content-center mb-4">
-                            <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-
-                            <!-- <div class=""> -->
-                            <span>Lorem ipsum dolor sit </span>
-                            <!-- </div> -->
-
-                        </div>
-
-                        <div class="d-flex align-content-center mb-4">
-                            <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-
-                            <!-- <div class=""> -->
-                            <span>Lorem ipsum dolor sit </span>
-                            <!-- </div> -->
-
-                        </div>
-
-                        <div class="d-flex align-content-center mb-4">
-                            <div class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-
-                            <!-- <div class=""> -->
-                            <span>Lorem ipsum dolor sit </span>
-                            <!-- </div> -->
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-4">
-                    <img src="./assets/recursos/Clientes Desktop (1).png" class="w-100" alt="">
-                </div>
-            </div>
-        </section>
-
-        <section class="container">
-            <div class="row">
-                <div class="col-3 d-none d-md-block">
-                    <img class="w-100" src="./assets/recursos/banner 4 izquierda.png">
-                </div>
-
-                <div class="col-12 col-md-6 text-purple text-center d-flex align-items-center">
-                    <h2><span class="text-primary">No pages %</span> por las transacciones que resivas</h2>
-                </div>
-
-                <div class="col-3 d-none d-md-block">
-                    <img class="w-100" src="./assets/recursos/Layer 4 derecha.png" alt="">
-
-                </div>
-            </div>
-        </section>
-
-        <section class="container">
-            <div class="row py-4">
-                <div class="col-6">
-                    <h3>Seguimos sumando</h3>
-                </div>
-                <div class="col-6 d-flex justify-content-end">
-                    <div class="d-flex">
-                        <div class="cuadrado-40 center-abs rounded-circle mr-2 btn-outline-purple">
-                            <i class="fa-solid fa-arrow-left"></i>
-                        </div>
-                        <div class="cuadrado-40 center-abs rounded-circle btn-outline-purple">
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
+      <section class="container">
+        <div class="row tramslate-y-40">
+          <div class="col-md-6">
+            <img
+              src="./assets/recursos/Laptop Desktop.png"
+              alt=""
+              class="w-100"
+            />
+          </div>
+          <div class="col-md-6 d-flex align-items-center py-md-5 p-3 mt-4">
             <div class="">
+              <h2 class="text-primary">Lo hace por ti</h2>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="p-4">
-                            <div class="d-flex mb-4">
-                                <div class="cuadrado-40 rounded-circle">
-                                    <img class="w-100" src="./assets/profile/Testimonial Picture Descktop (3).png"
-                                        alt="">
-                                </div>
-                            </div>
-                            <div class="">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio at laboriosam
-                                    explicabo dolorum, enim similique vitae est corrupti modi laborum voluptates, ad
-                                    veritatis quo quibusdam rerum amet ullam ab eligendi.</p>
+              <p class="text-purple2">
+                Nuestra aplicación Izzycheck está desarrollada para proporcionar de manera fácil, rápida y cómoda la validación de los pagos que recibes a través de transferencias Zelle, permitiendo disminuir pérdidas por transacciones repetidas y estafas. Además ofrece un mayor control de las transacciones debido al acceso en tiempo real de reportes y balances.
+              </p>
 
-                                <p class="mb-2 text-purple font-weight-bold">Lorem, ipsum dolor.</p>
-
-                                <small class="text-muted">Lorem ipsum dolor sit.</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="p-4">
-                            <div class="d-flex mb-4">
-                                <div class="cuadrado-40 rounded-circle">
-                                    <img class="w-100" src="./assets/profile/Testimonial Picture Descktop (2).png"
-                                        alt="">
-                                </div>
-                            </div>
-                            <div class="">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio at laboriosam
-                                    explicabo dolorum, enim similique vitae est corrupti modi laborum voluptates, ad
-                                    veritatis quo quibusdam rerum amet ullam ab eligendi.</p>
-
-                                <p class="mb-2 text-purple font-weight-bold">Lorem, ipsum dolor.</p>
-
-                                <small class="text-muted">Lorem ipsum dolor sit.</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              <div class="">
+                <a href="" class="btn btn-primary">Iniciar la prueba gratuita</a>
+                <a href="" class="btn btn-outline-primary font-weight-bold"
+                  >Conocer más sobre Premium</a
+                >
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class=" py-5 bg-fit" style="background-image: url(./assets/banners/banner\ ultimo\ cuadrado.png);">
+      <section class="container py-4">
+        <div class="text-center">
+          <h2 class="text-purple">Ventajas</h2>
 
-            <div class="container">
-                <div class="text-center text-white">
-                    <h2 class="mb-4">Preguntas frecuentes</h2>
+          <p class="text-purple2">
+            Descubre porque Izzi Check es para ti
+          </p>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="">
+              <div class="d-flex justify-content-center">
+                <div>
+                  <img
+                    src="./assets/icons/Validation icon.svg"
+                    alt="Validacion"
+                  />
                 </div>
+              </div>
+              <div class="text-center text-muted">
+                                <h5 class="text-purple" >Validación inmediata</h5>
 
-                <div class="row">
-                    <div class="col-md-8 p-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="">
-                                    <img style="height: 240px;" class="img-cover w-100"
-                                        src="./assets/banners/Manos Desktop.png" alt="">
-                                </div>
-                                <div class="pt-3 text-center text-muted">
-                                    <h5 class="">Lorem, ipsum dolor.</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Laborum, rem iste consequatur aliquam beatae esse voluptatum magni tenetur
-                                        voluptatibus reiciendis suscipit facere sed expedita omnis est fugiat libero
-                                        modi! Optio.</p>
+                <p class="text-purple2">
+                    Valida de las transferencias Zelle de manera inmediata y segura.
+                </p>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="">
-                                    <img style="height: 240px;" class="img-cover w-100"
-                                        src="./assets/banners/Es gratis desktop.png" alt="">
-                                </div>
-                                <div class="pt-3 text-center text-muted">
-                                    <h5 class="">Lorem, ipsum dolor.</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Laborum, rem iste consequatur aliquam beatae esse</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 p-3">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="">
-                                    <img style="height: 240px;" class="img-cover w-100"
-                                        src="./assets/banners/crece negocio desktop.png" alt="">
-                                </div>
-                                <div class="pt-3 text-center text-muted">
-                                    <h5 class="">Lorem, ipsum dolor.</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Laborum, rem iste consequatur aliquam beatae esse</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <a href="" class="text-primary font-weight-bold"
+                  >Saber mas</a
+                >
+              </div>
             </div>
-        </section>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="">
+              <div class="d-flex justify-content-center">
+                <div>
+                  <img src="./assets/icons/Report icon.svg" alt="Reporte" />
+                </div>
+              </div>
+              <div class="text-center text-muted">
+                                <h5 class="text-purple" >Generación de reportes</h5>
+                <p class="text-purple2">
+                    Genera reportes para que puedas visualizar las transferencias recibidas por Zelle.
+                </p>
 
+                <a href="" class="text-primary font-weight-bold"
+                  >Saber mas</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="">
+              <div class="d-flex justify-content-center">
+                <div>
+                  <img src="./assets/icons/Money icon.svg" alt="Dinero" />
+                </div>
+              </div>
+              <div class="text-center text-muted">
+                                <h5 class="text-purple" >Obtención de balances</h5>
+                <p class="text-purple2">
+                    Obtén el balances de los pagos recibidos por Zelle por rango de fecha.
+                </p>
+
+                <a href="" class="text-primary font-weight-bold"
+                  >Saber mas</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="">
+              <div class="d-flex justify-content-center">
+                <div>
+                  <img
+                    src="./assets/icons/Custom plan icon.svg"
+                    alt="Validacion"
+                  />
+                </div>
+              </div>
+              <div class="text-center text-muted">
+                                <h5 class="text-purple" >A tu medida</h5>
+                <p class="text-purple2">
+                    Usa planes ajustados a tu medida.
+                </p>
+
+                <a href="" class="text-primary font-weight-bold"
+                  >Saber mas</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-fit pt-5"
+        style="background-position: center bottom ;; background-image: url(./assets/banners/banner\ 2.png)"
+      >
+        <div class="container">
+          <div class="text-center mb-5">
+            <div class="col-md-6 offset-md-3">
+              <h2 class="text-light">
+                Es muy facil disfrutar de los beneficios de <b>Izzicheck</b>
+              </h2>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="row no-gutters ">
+              <div class="col-lg-6 offset-lg-1">
+                <img
+                  src="./assets/banners/Screenshot_3.png"
+                  class="w-100 p"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-4 bg-white  p-4">
+                <div class="">
+                  <div class="">
+                    <h3 class="mb-3  text-purple ">Hazlo en 3 simples pasos</h3>
+                  </div>
+
+                  <div class="">
+                    <div class="d-flex align-items-center text-muted mb-1 ">
+                      <div class="p-3 border border-secondary cuadrado-30 rounded-circle center-abs">
+                        <span class="font-weight-bold ">1</span>
+                      </div>
+                                          <div class="p-3">
+                        <small class="text-purple2"
+                          >Regístrate llenando el formulario</small
+                        >
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center text-muted mb-1">
+                      <div class="p-3 border border-secondary cuadrado-30 rounded-circle center-abs">
+                        <span class="font-weight-bold">2</span>
+                      </div>
+                                          <div class="p-3">
+                        <small class="text-purple2"
+                          >Elige el plan a tu medida</small
+                        >
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center text-muted">
+                      <div class="p-3 border border-secondary cuadrado-30 rounded-circle center-abs">
+                        <span class="font-weight-bold">3</span>
+                      </div>
+                                          <div class="p-3">
+                        <small class="text-purple2"
+                          >Comienza a recibir la validación de los pagos por Zelle</small
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="mt-5 pb-5 pt-3 bg-fit"
+        style="
+          background-image: url(./assets/banners/banner\ 3.png);
+          background-position: center top;
+        "   >
+        <div class="container">
+          <div class="text-center text-light">
+            <div class="mb-2">
+              <small class="">Planes mensuales</small>
+            </div>
+
+            <h3 class="mb-4">Elige tu plan ideal</h3>
+
+            <p class="mb-3">
+              <span class="text-primary">Cuéntanos</span>
+               la frecuencia en la que recibes transacciones vía Zelle, para asesorarte y brindarte la mejor solución.
+            </p>
+
+            <div class="text-left  d-flex justify-content-center">
+              <div class="p-2 ">
+                <span>Factura mensual</span>
+                
+              </div>
+              <div class="p-2">
+                <input type="checkbox" checked data-toggle="toggle" data-style="ios">
+              </div>
+
+              <div class="p-2">
+                <span class="" > Factura anual<br> <span class="text-primary">Ahorra 15%</span> </span>
+              </div>
+                           
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+              <div class="mt-5 pb-4">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 p-2">
+                      <div class="text-purple p-4 bg-light">
+                        <h5>Plan Inicial</h5>
+                        <p class="mb-5">
+                            Comienza probando lo que Izzicheck puede hacer por ti
+                        </p>
+                        <div class="d-flex align-content-center mb-4">
+                          <div
+                            class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                          >
+                            <i class="fa-solid fa-check"></i>
+                          </div>
+                          <!-- <div class=""> -->
+                          <span>Hasta 9 transacciones </span>
+                          <!-- </div> -->
+                        </div>
+                        <div class="">
+                          <button
+                            class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block"
+                            type="button"
+                          >
+                            <b>Prueba Gratis</b>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="col-md-6 col-lg-3 p-2">
+                      <div class="text-purple p-4 bg-light">
+                        <h5>Plan Emprendedor</h5>
+                        <p class="mb-5">
+                            Mejora oportunidades de cobrar con tu emprendimiento
+                        </p>
+                        <div class="d-flex align-content-center mb-4">
+                          <div
+                            class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                          >
+                            <i class="fa-solid fa-check"></i>
+                          </div>
+                          <!-- <div class=""> -->
+                          <span>Hasta 50 transacciones</span>
+                          <!-- </div> -->
+                        </div>
+                        <div class="">
+                          <button
+                            class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block"
+                            type="button"
+                          >
+                            <b>Lo necesito</b>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 p-2">
+                      <div class="text-purple p-4 bg-light">
+                        <h5>Plan Pymes</h5>
+                        <p class="mb-5">
+                            Avanza al siguiente nivel con ayuda de Izzicheck
+                        </p>
+                        <div class="d-flex align-content-center mb-4">
+                          <div
+                            class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                          >
+                            <i class="fa-solid fa-check"></i>
+                          </div>
+                          <!-- <div class=""> -->
+                          <span>Hasta 199 transacciones </span>
+                          <!-- </div> -->
+                        </div>
+                        <div class="">
+                          <button
+                            class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block"
+                            type="button"
+                          >
+                            <b>Lo necesito</b>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 p-2">
+                      <div class="text-purple p-4 bg-light">
+                        <h5>Plan Corporativo</h5>
+                        <p class="mb-5">
+                            Hazlo Izzi para tus empresas o proyectos ambiciosos
+                        </p>
+                        <div class="d-flex align-content-center mb-4">
+                          <div
+                            class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                          >
+                            <i class="fa-solid fa-check"></i>
+                          </div>
+                          <!-- <div class=""> -->
+                          <span>Más de 200 transacciones</span>
+                          <!-- </div> -->
+                        </div>
+                        <div class="">
+                          <button
+                            class="btn btn-outline-dark text-purple tn-lg btn-rounded btn-block"
+                            type="button"
+                          >
+                            <b>Lo necesito</b>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5">
+        <div class="row">
+          <div class="col-md-6 text-muted d-flex align-content-center">
+            <div class="">
+              <div class="mb-3">
+                <small class="text-purple">A QUIENES SERVIMOS</small>
+              </div>
+
+              <h3 class="text-primary">Nuestra plataforma</h3>
+
+              <p class="mb-4 text-purple">
+                está orientada a satisfacer las necesidades para todo tipo de clientes.
+              </p>
+
+              <div class="d-flex align-content-center mb-4">
+                <div
+                  class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                >
+                  <i class="fa-solid fa-check"></i>
+                </div>
+
+                <!-- <div class=""> -->
+                <span class="text-purple">Servicios Profesionales y Corporativos. </span>
+                <!-- </div> -->
+              </div>
+
+              <div class="d-flex align-content-center mb-4">
+                <div
+                  class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                >
+                  <i class="fa-solid fa-check"></i>
+                </div>
+
+                <!-- <div class=""> -->
+                <span class="text-purple">Emprendedores. </span>
+                <!-- </div> -->
+              </div>
+
+              <div class="d-flex align-content-center mb-4">
+                <div
+                  class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                >
+                  <i class="fa-solid fa-check"></i>
+                </div>
+
+                <!-- <div class=""> -->
+                <span class="text-purple">Pymes.</span>
+                <!-- </div> -->
+              </div>
+
+              <div class="d-flex align-content-center mb-4">
+                <div
+                  class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                >
+                  <i class="fa-solid fa-check"></i>
+                </div>
+
+                <!-- <div class=""> -->
+                <span class="text-purple">Instituciones para la educación.</span>
+                <!-- </div> -->
+              </div>
+
+              <div class="d-flex align-content-center mb-4">
+                <div
+                  class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                >
+                  <i class="fa-solid fa-check"></i>
+                </div>
+
+                <!-- <div class=""> -->
+                <span class="text-purple">Comercios.</span>
+                <!-- </div> -->
+              </div>
+
+              <div class="d-flex align-content-center mb-4">
+                <div
+                  class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                >
+                  <i class="fa-solid fa-check"></i>
+                </div>
+
+                <!-- <div class=""> -->
+                <span class="text-purple">Personas. </span>
+                <!-- </div> -->
+              </div>
+
+              <div class="d-flex align-content-center mb-4">
+                <div
+                  class="rounded-circle cuadrado-30 bg-gray center-abs text-muted mr-2"
+                >
+                <i class="fa-solid fa-check"></i>
+                </div>
+
+                <!-- <div class=""> -->
+                <span class="text-purple">y más... </span>
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 p-4">
+            <img
+              src="./assets/recursos/Clientes Desktop (1).png"
+              class="w-100"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-3 d-none d-md-block">
+            <img class="w-100" src="./assets/recursos/banner 4 izquierda.png" />
+          </div>
+
+          <div
+            class="col-12 col-md-6 text-purple text-center d-flex align-items-center"
+          >
+            <h2>
+              <span class="text-primary">No pages %</span> por las transacciones
+              que recibes
+            </h2>
+          </div>
+
+          <div class="col-3 d-none d-md-block">
+            <img
+              class="w-100"
+              src="./assets/recursos/Layer 4 derecha.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row py-4">
+          <div class="col-6">
+            <h3> <i class="fa-solid fa-comment fa-xs text text-purple"></i> Seguimos sumando</h3>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <div class="d-flex">
+              <div
+                class="cuadrado-40 center-abs rounded-circle mr-2 btn-outline-purple"
+              >
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div
+                class="cuadrado-40 center-abs rounded-circle btn-outline-purple"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="p-4">
+                <div class="d-flex mb-4">
+                  <div class="cuadrado-40 rounded-circle">
+                    <img
+                      class="w-100"
+                      src="./assets/profile/Testimonial Picture Descktop (3).png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pl-4">
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                  </div>
+                </div>
+                <div class="text-muted">
+                  <p>
+                    IzziCheck es justo lo que necesitaba para aumentar mis ventas ya que puedo validar las transacciones Zelle al momento.
+                  </p>
+
+                  <p class="mb-2 text-purple font-weight-bold">
+                    Jaquon Hart
+                  </p>
+
+                  <small class="text-purple">Digital Marketing Executive, Hypebeast</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-4">
+                <div class="d-flex mb-4">
+                  <div class="cuadrado-40 rounded-circle">
+                    <img
+                      class="w-100"
+                      src="./assets/profile/Testimonial Picture Descktop (2).png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pl-4">
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                    <img src="./assets/icons/star.svg" alt="Estrellas" />
+                  </div>
+                </div>
+                </div>
+                <div class="text-muted">
+                  <p>
+                    Utilicé la versión gratuita para lograr concretar esas ventas en las que mis clientes preferian Zelle
+                  </p>
+
+                  <p class="mb-2 text-purple font-weight-bold">
+                    Harinder Bharwal
+                  </p>
+
+                  <small class="text-purple">Product Manager of Salestation Asia</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="py-5 bg-fit"
+        style="
+          background-image: url(./assets/banners/banner\ ultimo\ cuadrado.png);
+        "
+      >
+        <div class="container">
+          <div class="text-center text-white">
+            <h2 class="mb-4">Preguntas frecuentes</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-8 p-3">
+              <div class="card">
+                <div class="card-body ">
+                  <div class="">
+                    <img
+                      style="height: 240px"
+                      class="img-cover w-100"
+                      src="./assets/banners/Manos Desktop.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pt-3 text-center text-purple">
+                    <h5 class="">¿Qué es IzziCheck?</h5>
+                    <p class="card-text">
+                        IzziCheck es la solución tecnológica de validación de pagos recibidos por Zelle, en donde podrás recibir dinero verificando al instante su recepción sin tener que entrar a tu cuenta bancaria, además de poder generar reportes con los balances de pagos recibidos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 p-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="">
+                    <img
+                      style="height: 240px"
+                      class="img-cover w-100"
+                      src="./assets/banners/Es gratis desktop.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pt-3 text-center text-purple">
+                    <h5 class="">¿Usar IzziCheck es gratis?</h5>
+                    <p class="card-text">
+                        ¡Totalmente gratuito! Puedes usar el validador Izzicheck hasta 9 transacciones sin ningún costo.                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 p-3">
+              <div class="card">
+                <div class="card-body">
+                  <div class="">
+                    <img
+                      style="height: 240px"
+                      class="img-cover w-100"
+                      src="./assets/banners/crece negocio desktop.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="pt-3 text-center text-purple">
+                    <h5 class="">Si mis ventas incrementan, ¿Puedo cambiar de plan para uno que registre más validaciones?</h5>
+                    <p class="card-text">
+                        ¡Por supuesto que sí! Puedes cambiar al plan ajustado a tus necesidades en el momento que lo requieras.                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-lg-2 p-3 offset-lg-3">
+            <div>
+              <img
+                src="./assets/icons/izzicheck Verde.svg"
+                alt="logo-Izzicheck"
+              />
+            </div>
+            <div class="mt-3">
+              <div>
+                <p class="text-muted">@izzicheck</p>
+              </div>
+              <div>
+                <img src="./assets/icons/Instagram Icon.svg" alt="Instagram" />
+                <img src="./assets/icons/Facebook icon.svg" alt="Facebook" />
+              </div>
+            </div>
+          </div>
 
+          <div class="col-12 col-lg-2 p-3 text-purple">
+            <div>
+              <h5 class="">Info</h5>
+            </div>
+            <div class="">
+              <p>Términos y condiciones</p>
+              <p>Sobre nuestra seguridad</p>
+              <p>Políticas de privacidad</p>
+              <p>Política de cookies</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 p-3 text-purple">
+            <h5>Entradas al Menu</h5>
+            <div class="">
+              <p>Ventajas</p>
+              <p>Cómo funciona</p>
+              <p>Planes</p>
+              <p>Contáctanos</p>
+            </div>
+          </div>
 
-    <script src=" ./lib/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
+          <div class="col-12 d-flex justify-content-center">
+            <i class="fa-solid fa-heart text-primary"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./lib/Bootstrap-toggle/js/bootstrap4-toggle.min.js"></script>
+  </body>
 </html>
+

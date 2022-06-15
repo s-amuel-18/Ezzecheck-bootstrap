@@ -1,91 +1,127 @@
 .header {
-    background-image: url(../assets/banners/banner\ principal.png);
-    background-position: center bottom !important;
-    /* min-height: 95vh; */
+  background-image: url(../assets/banners/banner\ principal.png);
+  background-position: center bottom !important;
+  /* min-height: 95vh; */
 }
 
 .bg-fit {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text-primary {
-    color: #22e38f !important;
+  color: #22e38f !important;
 }
 
 .btn-primary {
-    background-color: #22e38f !important;
-    border: 2px solid #22e38f !important;
+  background-color: #22e38f !important;
+  border: 2px solid #22e38f !important;
 }
 
 .btn-outline-primary {
-    color: #22e38f !important;
-    border: 2px solid #22e38f !important;
+  color: #22e38f !important;
+  border: 2px solid #22e38f !important;
 }
 
 .btn-outline-primary:hover {
-    color: #fff !important;
-    background-color: #22e38f !important;
+  color: #fff !important;
+  background-color: #22e38f !important;
 }
 
 .btn-custom-blur {
-    border: transparent 2px solid;
-    background: rgba(205, 205, 205, 0.241);
+  border: transparent 2px solid;
+  background: rgba(205, 205, 205, 0.241);
+}
+.border-green {
+  border: 1px solid #22e38f;
+}
+
+.border-light {
+  border: 1px solid #22e38f;
 }
 
 .bg-purple {
-    background: rgb(57, 0, 113);
+  background: rgb(57, 0, 113);
 }
 
 .btn-outline-purple {
-    color: rgb(57, 0, 113);
-    border: rgb(57, 0, 113) 2px solid;
-    cursor: pointer;
+  color: rgb(57, 0, 113);
+  border: rgb(57, 0, 113) 2px solid;
+  cursor: pointer;
 }
 
 .text-purple {
-    color: rgb(57, 0, 113);
+  color: rgb(127, 31, 212);
 }
 
+.text-purple2 {
+  color: rgb(58, 14, 96);
+}
 .circle-item {
-
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .cuadrado-30 {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .cuadrado-40 {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .bg-gray {
-    background-color: rgb(219, 219, 219);
+  background-color: rgb(219, 219, 219);
 }
 
 .center-abs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-rounded {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 .bg-transparent-gray {
-    background: rgba(175, 175, 175, 0.344);
+  background: rgba(175, 175, 175, 0.344);
 }
 
 .tramslate-y-40 {
-    transform: translateY(-40px);
+  transform: translateY(-40px);
 }
 
 .img-cover {
-    object-fit: cover;
+  object-fit: cover;
+}
+
+.bg-navbar {
+  background: linear-gradient(
+    to left,
+    rgba(40, 220, 148, 0.5),
+    rgba(104, 89, 192, 0.5)
+  );
+}
+
+.btn-transparent {
+  color: white;
+  background: transparent;
+}
+
+.fa-check {
+  color: #22e38f;
+}
+
+/* bootstrap toggle */
+.toggle.ios,
+.toggle-on.ios,
+.toggle-off.ios {
+  border-radius: 20rem;
+}
+.toggle.ios .toggle-handle {
+  border-radius: 20rem;
 }
