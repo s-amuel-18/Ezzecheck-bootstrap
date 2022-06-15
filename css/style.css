@@ -1,0 +1,91 @@
+.header {
+    background-image: url(../assets/banners/banner\ principal.png);
+    background-position: center bottom !important;
+    /* min-height: 95vh; */
+}
+
+.bg-fit {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-primary {
+    color: #22e38f !important;
+}
+
+.btn-primary {
+    background-color: #22e38f !important;
+    border: 2px solid #22e38f !important;
+}
+
+.btn-outline-primary {
+    color: #22e38f !important;
+    border: 2px solid #22e38f !important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: #22e38f !important;
+}
+
+.btn-custom-blur {
+    border: transparent 2px solid;
+    background: rgba(205, 205, 205, 0.241);
+}
+
+.bg-purple {
+    background: rgb(57, 0, 113);
+}
+
+.btn-outline-purple {
+    color: rgb(57, 0, 113);
+    border: rgb(57, 0, 113) 2px solid;
+    cursor: pointer;
+}
+
+.text-purple {
+    color: rgb(57, 0, 113);
+}
+
+.circle-item {
+
+    width: 30px;
+    height: 30px;
+}
+
+.cuadrado-30 {
+    width: 30px;
+    height: 30px;
+}
+
+.cuadrado-40 {
+    width: 40px;
+    height: 40px;
+}
+
+.bg-gray {
+    background-color: rgb(219, 219, 219);
+}
+
+.center-abs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+}
+
+.bg-transparent-gray {
+    background: rgba(175, 175, 175, 0.344);
+}
+
+.tramslate-y-40 {
+    transform: translateY(-40px);
+}
+
+.img-cover {
+    object-fit: cover;
+}
